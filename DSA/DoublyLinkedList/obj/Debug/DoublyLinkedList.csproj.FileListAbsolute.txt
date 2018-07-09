@@ -1,0 +1,7 @@
+C:\Users\Jack\Documents\GitHub\review-datastructure-algorithms\DSA\DoublyLinkedList\obj\Debug\DoublyLinkedList.csprojAssemblyReference.cache
+C:\Users\Jack\Documents\GitHub\review-datastructure-algorithms\DSA\DoublyLinkedList\obj\Debug\DoublyLinkedList.csproj.CoreCompileInputs.cache
+C:\Users\Jack\Documents\GitHub\review-datastructure-algorithms\DSA\DoublyLinkedList\bin\Debug\DoublyLinkedList.exe.config
+C:\Users\Jack\Documents\GitHub\review-datastructure-algorithms\DSA\DoublyLinkedList\bin\Debug\DoublyLinkedList.exe
+C:\Users\Jack\Documents\GitHub\review-datastructure-algorithms\DSA\DoublyLinkedList\bin\Debug\DoublyLinkedList.pdb
+C:\Users\Jack\Documents\GitHub\review-datastructure-algorithms\DSA\DoublyLinkedList\obj\Debug\DoublyLinkedList.exe
+C:\Users\Jack\Documents\GitHub\review-datastructure-algorithms\DSA\DoublyLinkedList\obj\Debug\DoublyLinkedList.pdb
