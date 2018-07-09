@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DoublyLinkedList {
 
-    class DList<T> {
+    public class DList<T> {
 
         public DNode<T> Head { get; private set; }
 

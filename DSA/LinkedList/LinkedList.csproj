@@ -53,5 +53,14 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DoublyLinkedList\DoublyLinkedList.csproj">
+      <Project>{b915bcd9-e4ad-4ee3-9f8b-da481efa900a}</Project>
+      <Name>DoublyLinkedList</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

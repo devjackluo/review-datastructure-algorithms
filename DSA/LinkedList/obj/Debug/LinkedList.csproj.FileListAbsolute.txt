@@ -5,3 +5,7 @@ C:\Users\Jack\Documents\GitHub\review-datastructure-algorithms\DSA\LinkedList\ob
 C:\Users\Jack\Documents\GitHub\review-datastructure-algorithms\DSA\LinkedList\obj\Debug\LinkedList.csproj.CoreCompileInputs.cache
 C:\Users\Jack\Documents\GitHub\review-datastructure-algorithms\DSA\LinkedList\obj\Debug\LinkedList.exe
 C:\Users\Jack\Documents\GitHub\review-datastructure-algorithms\DSA\LinkedList\obj\Debug\LinkedList.pdb
+C:\Users\Jack\Documents\GitHub\review-datastructure-algorithms\DSA\LinkedList\bin\Debug\DoublyLinkedList.exe
+C:\Users\Jack\Documents\GitHub\review-datastructure-algorithms\DSA\LinkedList\bin\Debug\DoublyLinkedList.pdb
+C:\Users\Jack\Documents\GitHub\review-datastructure-algorithms\DSA\LinkedList\bin\Debug\DoublyLinkedList.exe.config
+C:\Users\Jack\Documents\GitHub\review-datastructure-algorithms\DSA\LinkedList\obj\Debug\LinkedList.csproj.CopyComplete

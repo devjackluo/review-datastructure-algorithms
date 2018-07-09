@@ -5,7 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace DoublyLinkedList {
-    class Program {
+
+    public class Program {
 
         static void Main(string[] args) {
 
@@ -44,12 +45,12 @@ namespace DoublyLinkedList {
             myList.RemoveEnd();
 
 
-            PrintList(myList);
+            PrintDList(myList);
 
         }
 
 
-        private static void PrintList(DList<string> list) {
+        public static void PrintDList(DList<string> list) {
 
             DNode<string> head = list.Head;
 
