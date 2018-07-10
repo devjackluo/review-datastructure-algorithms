@@ -1,0 +1,14 @@
+C:\Users\Jack\Documents\GitHub\review-datastructure-algorithms\DSA\QueueLinkedList\bin\Debug\QueueLinkedList.exe.config
+C:\Users\Jack\Documents\GitHub\review-datastructure-algorithms\DSA\QueueLinkedList\bin\Debug\QueueLinkedList.exe
+C:\Users\Jack\Documents\GitHub\review-datastructure-algorithms\DSA\QueueLinkedList\bin\Debug\QueueLinkedList.pdb
+C:\Users\Jack\Documents\GitHub\review-datastructure-algorithms\DSA\QueueLinkedList\bin\Debug\LinkedList.exe
+C:\Users\Jack\Documents\GitHub\review-datastructure-algorithms\DSA\QueueLinkedList\bin\Debug\DoublyLinkedList.exe
+C:\Users\Jack\Documents\GitHub\review-datastructure-algorithms\DSA\QueueLinkedList\bin\Debug\LinkedList.pdb
+C:\Users\Jack\Documents\GitHub\review-datastructure-algorithms\DSA\QueueLinkedList\bin\Debug\LinkedList.exe.config
+C:\Users\Jack\Documents\GitHub\review-datastructure-algorithms\DSA\QueueLinkedList\bin\Debug\DoublyLinkedList.pdb
+C:\Users\Jack\Documents\GitHub\review-datastructure-algorithms\DSA\QueueLinkedList\bin\Debug\DoublyLinkedList.exe.config
+C:\Users\Jack\Documents\GitHub\review-datastructure-algorithms\DSA\QueueLinkedList\obj\Debug\QueueLinkedList.csprojAssemblyReference.cache
+C:\Users\Jack\Documents\GitHub\review-datastructure-algorithms\DSA\QueueLinkedList\obj\Debug\QueueLinkedList.csproj.CoreCompileInputs.cache
+C:\Users\Jack\Documents\GitHub\review-datastructure-algorithms\DSA\QueueLinkedList\obj\Debug\QueueLinkedList.csproj.CopyComplete
+C:\Users\Jack\Documents\GitHub\review-datastructure-algorithms\DSA\QueueLinkedList\obj\Debug\QueueLinkedList.exe
+C:\Users\Jack\Documents\GitHub\review-datastructure-algorithms\DSA\QueueLinkedList\obj\Debug\QueueLinkedList.pdb

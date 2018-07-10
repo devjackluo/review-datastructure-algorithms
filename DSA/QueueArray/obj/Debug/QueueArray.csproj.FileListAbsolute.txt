@@ -1,0 +1,7 @@
+C:\Users\Jack\Documents\GitHub\review-datastructure-algorithms\DSA\QueueArray\bin\Debug\QueueArray.exe.config
+C:\Users\Jack\Documents\GitHub\review-datastructure-algorithms\DSA\QueueArray\bin\Debug\QueueArray.exe
+C:\Users\Jack\Documents\GitHub\review-datastructure-algorithms\DSA\QueueArray\bin\Debug\QueueArray.pdb
+C:\Users\Jack\Documents\GitHub\review-datastructure-algorithms\DSA\QueueArray\obj\Debug\QueueArray.csprojAssemblyReference.cache
+C:\Users\Jack\Documents\GitHub\review-datastructure-algorithms\DSA\QueueArray\obj\Debug\QueueArray.csproj.CoreCompileInputs.cache
+C:\Users\Jack\Documents\GitHub\review-datastructure-algorithms\DSA\QueueArray\obj\Debug\QueueArray.exe
+C:\Users\Jack\Documents\GitHub\review-datastructure-algorithms\DSA\QueueArray\obj\Debug\QueueArray.pdb

@@ -1,0 +1,32 @@
+﻿<Window x:Class="QueueTestWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:QueueTestWPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="650">
+    <Grid>
+        <Grid Height="70" HorizontalAlignment="Left" Margin="12,12,0,0" Name="grid1" VerticalAlignment="Top" Width="600">
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="100" />
+                <ColumnDefinition Width="100" />
+                <ColumnDefinition Width="100" />
+                <ColumnDefinition Width="100" />
+                <ColumnDefinition Width="100" />
+                <ColumnDefinition Width="100" />
+            </Grid.ColumnDefinitions>
+            <Label Content="" Grid.Column="0" Height="70" HorizontalAlignment="Left" Name="lblQ1" VerticalAlignment="Top" Width="100" BorderBrush="#FFDE0000" BorderThickness="1" FontWeight="Bold" FontSize="24" HorizontalContentAlignment="Center" />
+            <Label Content="" Grid.Column="1" Height="70" HorizontalAlignment="Left" Name="lblQ2" VerticalAlignment="Top" Width="100" BorderBrush="Black" BorderThickness="1" FontWeight="Bold" FontSize="24" HorizontalContentAlignment="Center" />
+            <Label Content="" Grid.Column="2" Height="70" HorizontalAlignment="Left" Name="lblQ3" VerticalAlignment="Top" Width="100" BorderBrush="Black" BorderThickness="1" FontWeight="Bold" FontSize="24" HorizontalContentAlignment="Center" />
+            <Label Content="" Grid.Column="3" Height="70" HorizontalAlignment="Left" Name="lblQ4" VerticalAlignment="Top" Width="100" BorderBrush="Black" BorderThickness="1" FontWeight="Bold" FontSize="24" HorizontalContentAlignment="Center" />
+            <Label Content="" Grid.Column="4" Height="70" HorizontalAlignment="Left" Name="lblQ5" VerticalAlignment="Top" Width="100" BorderBrush="Black" BorderThickness="1" FontWeight="Bold" FontSize="24" HorizontalContentAlignment="Center" Background="Transparent" />
+            <Label Content="" Grid.Column="5" Height="70" HorizontalAlignment="Left" Name="lblQ6" VerticalAlignment="Top" Width="100" BorderBrush="Black" BorderThickness="1" FontWeight="Bold" FontSize="24" HorizontalContentAlignment="Center" />
+        </Grid>
+        <Button Content="Create" Height="28" HorizontalAlignment="Left" Margin="12,134,0,0" x:Name="btnCreate" VerticalAlignment="Top" Width="129" Click="button_Create_Click" />
+        <Button Content="Process" Height="28" HorizontalAlignment="Left" Margin="183,134,0,0" x:Name="btnProcess" VerticalAlignment="Top" Width="129" Click="button_Process_Click" />
+        <ListBox Height="165" HorizontalAlignment="Left" Margin="412,134,0,0" x:Name="listBox" VerticalAlignment="Top" Width="201" />
+        <Label Content="Head" Height="26" HorizontalAlignment="Left" Margin="41,88,0,0" Name="label1" VerticalAlignment="Top" Width="71" />
+    </Grid>
+</Window>
