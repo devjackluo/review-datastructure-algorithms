@@ -1,0 +1,7 @@
+C:\Users\Jack\Documents\GitHub\review-datastructure-algorithms\DSA\BinaryTree\obj\Debug\BinaryTree.csprojAssemblyReference.cache
+C:\Users\Jack\Documents\GitHub\review-datastructure-algorithms\DSA\BinaryTree\obj\Debug\BinaryTree.csproj.CoreCompileInputs.cache
+C:\Users\Jack\Documents\GitHub\review-datastructure-algorithms\DSA\BinaryTree\bin\Debug\BinaryTree.exe.config
+C:\Users\Jack\Documents\GitHub\review-datastructure-algorithms\DSA\BinaryTree\bin\Debug\BinaryTree.exe
+C:\Users\Jack\Documents\GitHub\review-datastructure-algorithms\DSA\BinaryTree\bin\Debug\BinaryTree.pdb
+C:\Users\Jack\Documents\GitHub\review-datastructure-algorithms\DSA\BinaryTree\obj\Debug\BinaryTree.exe
+C:\Users\Jack\Documents\GitHub\review-datastructure-algorithms\DSA\BinaryTree\obj\Debug\BinaryTree.pdb

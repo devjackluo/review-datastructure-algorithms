@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueueArray", "QueueArray\Qu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PriorityQueueLinkedList", "PriorityQueueLinkedList\PriorityQueueLinkedList.csproj", "{FDD38330-E678-408A-88EE-DABF1930038D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTree", "BinaryTree\BinaryTree.csproj", "{CCFC2A2E-3FA1-490C-A181-46344721F571}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{FDD38330-E678-408A-88EE-DABF1930038D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FDD38330-E678-408A-88EE-DABF1930038D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FDD38330-E678-408A-88EE-DABF1930038D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCFC2A2E-3FA1-490C-A181-46344721F571}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCFC2A2E-3FA1-490C-A181-46344721F571}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCFC2A2E-3FA1-490C-A181-46344721F571}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCFC2A2E-3FA1-490C-A181-46344721F571}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
