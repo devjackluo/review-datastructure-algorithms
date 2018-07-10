@@ -1,0 +1,17 @@
+C:\Users\Jack\Documents\GitHub\review-datastructure-algorithms\DSA\StackCalculator\bin\Debug\StackCalculator.exe.config
+C:\Users\Jack\Documents\GitHub\review-datastructure-algorithms\DSA\StackCalculator\bin\Debug\StackCalculator.exe
+C:\Users\Jack\Documents\GitHub\review-datastructure-algorithms\DSA\StackCalculator\bin\Debug\StackCalculator.pdb
+C:\Users\Jack\Documents\GitHub\review-datastructure-algorithms\DSA\StackCalculator\bin\Debug\StackLinkedList.exe
+C:\Users\Jack\Documents\GitHub\review-datastructure-algorithms\DSA\StackCalculator\bin\Debug\LinkedList.exe
+C:\Users\Jack\Documents\GitHub\review-datastructure-algorithms\DSA\StackCalculator\bin\Debug\DoublyLinkedList.exe
+C:\Users\Jack\Documents\GitHub\review-datastructure-algorithms\DSA\StackCalculator\bin\Debug\StackLinkedList.pdb
+C:\Users\Jack\Documents\GitHub\review-datastructure-algorithms\DSA\StackCalculator\bin\Debug\StackLinkedList.exe.config
+C:\Users\Jack\Documents\GitHub\review-datastructure-algorithms\DSA\StackCalculator\bin\Debug\LinkedList.pdb
+C:\Users\Jack\Documents\GitHub\review-datastructure-algorithms\DSA\StackCalculator\bin\Debug\LinkedList.exe.config
+C:\Users\Jack\Documents\GitHub\review-datastructure-algorithms\DSA\StackCalculator\bin\Debug\DoublyLinkedList.pdb
+C:\Users\Jack\Documents\GitHub\review-datastructure-algorithms\DSA\StackCalculator\bin\Debug\DoublyLinkedList.exe.config
+C:\Users\Jack\Documents\GitHub\review-datastructure-algorithms\DSA\StackCalculator\obj\Debug\StackCalculator.csprojAssemblyReference.cache
+C:\Users\Jack\Documents\GitHub\review-datastructure-algorithms\DSA\StackCalculator\obj\Debug\StackCalculator.csproj.CoreCompileInputs.cache
+C:\Users\Jack\Documents\GitHub\review-datastructure-algorithms\DSA\StackCalculator\obj\Debug\StackCalculator.csproj.CopyComplete
+C:\Users\Jack\Documents\GitHub\review-datastructure-algorithms\DSA\StackCalculator\obj\Debug\StackCalculator.exe
+C:\Users\Jack\Documents\GitHub\review-datastructure-algorithms\DSA\StackCalculator\obj\Debug\StackCalculator.pdb

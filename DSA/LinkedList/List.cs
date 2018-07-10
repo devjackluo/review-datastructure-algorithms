@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,13 +7,15 @@ using System.Threading.Tasks;
 
 namespace LinkedList {
 
-    class List<T> {
+    public class List<T>: System.Collections.Generic.ICollection<T> {
 
         public Node<T> Head { get; private set; }
 
         public Node<T> Tail { get; private set; }
 
         public int Count { get; private set; }
+
+        public bool IsReadOnly => throw new NotImplementedException();
 
 
         //overloaded add straight from generic
@@ -107,6 +110,44 @@ namespace LinkedList {
                 Count--;
             }
 
+        }
+
+        public void Clear() {
+            Head = null;
+            Tail = null;
+            Count = 0;
+        }
+
+
+        
+
+        //Needed to implement this for my StackL to work.
+        public void Add(T item) {
+            AddFront(item);
+        }
+
+        public bool Contains(T item) {
+            throw new NotImplementedException();
+        }
+
+        public void CopyTo(T[] array, int arrayIndex) {
+            throw new NotImplementedException();
+        }
+
+        public bool Remove(T item) {
+            throw new NotImplementedException();
+        }
+
+        public IEnumerator<T> GetEnumerator() {
+            Node<T> current = Head;
+            while (current != null) {
+                yield return current._value;
+                current = current.Next;
+            }
+        }
+
+        IEnumerator IEnumerable.GetEnumerator() {
+            return ((System.Collections.Generic.IEnumerable<T>)this).GetEnumerator();
         }
 
 

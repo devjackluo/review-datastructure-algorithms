@@ -1,0 +1,6 @@
+C:\Users\Jack\Documents\GitHub\review-datastructure-algorithms\DSA\StackArray\bin\Debug\StackArray.exe.config
+C:\Users\Jack\Documents\GitHub\review-datastructure-algorithms\DSA\StackArray\bin\Debug\StackArray.exe
+C:\Users\Jack\Documents\GitHub\review-datastructure-algorithms\DSA\StackArray\bin\Debug\StackArray.pdb
+C:\Users\Jack\Documents\GitHub\review-datastructure-algorithms\DSA\StackArray\obj\Debug\StackArray.csproj.CoreCompileInputs.cache
+C:\Users\Jack\Documents\GitHub\review-datastructure-algorithms\DSA\StackArray\obj\Debug\StackArray.exe
+C:\Users\Jack\Documents\GitHub\review-datastructure-algorithms\DSA\StackArray\obj\Debug\StackArray.pdb
