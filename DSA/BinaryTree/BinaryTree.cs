@@ -7,7 +7,8 @@ using System.Threading.Tasks;
 
 namespace BinaryTree {
 
-    public class BinaryTree<T> : IEnumerable<T> where T : IComparable<T> {
+    public class BinaryTree<T> : IEnumerable<T> 
+        where T : IComparable<T> {
 
 
         private BinaryTreeNode<T> _head;
@@ -195,7 +196,7 @@ namespace BinaryTree {
                 //TODO from this point onwards
 
 
-
+                //shallow copy
                 BinaryTreeNode<T> leftmost = current.Right.Left;
                 BinaryTreeNode<T> leftmostParent = current.Right;
 
@@ -205,10 +206,16 @@ namespace BinaryTree {
                     leftmost = leftmost.Left;
                 }
 
+                //removing leftmost from parent but if leftmost has any right child, the parent will now inherit it
                 leftmostParent.Left = leftmost.Right;
 
+                //leftmost will inherit current's left is any
                 leftmost.Left = current.Left;
+
+                //leftmost will now inherit the new leftmost parent with updated left
                 leftmost.Right = current.Right;
+                //leftmost.Right = leftmostParent;
+
 
                 if (parent == null) {
                     _head = leftmost;
@@ -239,6 +246,8 @@ namespace BinaryTree {
         public void PreOrderTraversal(Action<T> action, BinaryTreeNode<T> node) {
 
             if (node != null) {
+                //Recursively do these from head
+                //pre order does action for every node before processing left or right
                 action(node._value);
                 PreOrderTraversal(action, node.Left);
                 PreOrderTraversal(action, node.Right);
@@ -256,13 +265,13 @@ namespace BinaryTree {
 
         private void PostOrderTraversal(Action<T> action, BinaryTreeNode<T> node) {
             if (node != null) {
+                //recursively do post
+                //post order process both left and right before action
                 PostOrderTraversal(action, node.Left);
                 PostOrderTraversal(action, node.Right);
                 action(node._value);
             }
         }
-
-
 
 
 
@@ -272,50 +281,75 @@ namespace BinaryTree {
 
         private void InOrderTraversal(Action<T> action, BinaryTreeNode<T> node) {
             if (node != null) {
+                //recursively do inorder
+                //in order process left then parent then right
                 InOrderTraversal(action, node.Left);
-
                 action(node._value);
-
                 InOrderTraversal(action, node.Right);
             }
         }
 
         public IEnumerator<T> InOrderTraversal() {
 
+            /////////////////// Iterative instead of recursive
+
+
+            //if list not empty
             if (_head != null) {
 
+                //create a stack
                 Stack<BinaryTreeNode<T>> stack = new Stack<BinaryTreeNode<T>>();
 
+                //current node is head
                 BinaryTreeNode<T> current = _head;
 
+                //inorder always goes left first, then parent, then right
                 bool goLeftNext = true;
 
+                //push head to stack
+                //not processed, just there so loop runs
+                //~~waiting list
                 stack.Push(current);
 
+                //while there is still head holder to be popped
                 while (stack.Count > 0) {
 
+                    //if we're going left
                     if (goLeftNext) {
 
+                        //then we keep going left until we reach leftmost
                         while (current.Left != null) {
+                            //pushing all the ones we passed to stack
                             stack.Push(current);
+                            //recording where current is at
                             current = current.Left;
                         }
                     }
 
+                    //once at leftmost, return the value
                     yield return current._value;
 
+                    //check if most leftmost has a right
                     if (current.Right != null) {
+                        //if it does, set current as the right
                         current = current.Right;
+                        //tell loop to traverse new current's left
                         goLeftNext = true;
                     } else {
+                        //if no right was found, then we reached the end of parent's left and right
+                        //so pop the parent from stack
                         current = stack.Pop();
+                        //we don't want to go back left
+                        //which instantly returns the parent node and we then check if parent has right
                         goLeftNext = false;
                     }
+
                 }
             }
         }
 
         public IEnumerator<T> GetEnumerator() {
+            //return PostOrderTraversal();
             return InOrderTraversal();
         }
 

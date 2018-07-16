@@ -16,6 +16,8 @@ namespace BinaryTree {
                 // read the line from the user
                 Console.Write("> ");
                 input = Console.ReadLine();
+                //input = "5 6 3 4 4 4 3 3 3";
+            
 
                 // split the line into words (on space)
                 string[] words = input.Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
@@ -24,6 +26,8 @@ namespace BinaryTree {
                 foreach (string word in words) {
                     tree.Add(word);
                 }
+
+                //tree.Remove("3");
 
                 // print the number of words
                 Console.WriteLine("{0} words", tree.Count);
@@ -37,6 +41,7 @@ namespace BinaryTree {
 
                 tree.Clear();
             }
+
 
 
         }
